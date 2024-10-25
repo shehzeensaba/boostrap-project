@@ -1,0 +1,335 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Embroidery Hoop Art</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body{
+          font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+        }
+       
+
+    
+        .card-container:hover .overlay {
+            opacity: 1;
+        }
+
+        .head, .price, .cart {
+                    line-height: 40px;
+                    margin-bottom: 10px;
+                    transform: translateY(40px);
+                    transition: all 0.7s;
+}
+         
+
+        .card-container:hover .head,
+        .card-container:hover .price,
+        .card-container:hover .cart {
+            transform: translate(0, 0); /* Move to the original position */
+            opacity: 1;
+        }
+
+        .old {
+            text-decoration: line-through;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+
+    .card {
+      border: none;
+      overflow: hidden;
+      border-radius: 5px;
+      transition: transform 0.3s ease;
+    }
+
+    .card-img-top {
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover .card-img-top {
+      transform: translateY(-20px);
+    }
+
+    .card-body {
+      position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(77, 77, 77, 0.9);
+            color: #FEF5DF;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start; /* Align items to the left */
+            padding: 20px; /* Add padding for the text */
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+      /* padding: 10px;
+      text-align: center;
+      transition: transform 0.3s ease;
+      transform: translateY(100%); */
+      
+
+    .card:hover .card-body {
+      transform: translateY(0);
+    }
+
+    .col-md-3 {
+      flex: 0 0 auto;
+      width: 33%;
+    }
+
+
+
+    .cards {
+      border: none;
+      overflow: hidden;
+      position: relative;
+      text-align: center;
+    }
+
+    .cards img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    
+    
+
+.section__titles::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 70px;
+    background-color: red;
+}
+.section__titles {
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    margin: 50px 0;
+    position: relative;
+}
+
+.section__title::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 100px;
+    background-color:red;
+}
+.section__title {
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    margin: 50px 0;
+    position: relative;
+}
+
+    
+   
+    
+   
+    
+  
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="section__title">Discover By Category!</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" id="card1" style="width: 100%;">
+              <img src="ring3.jpg" class="card-img-top" alt="Watch 1">
+              <div class="card-body">
+                <h5 class="card-title"style="font-size:20px">Rings</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 100%;">
+              <img src="https://i.pinimg.com/474x/53/63/15/53631548c493650640e8f9e4a0d7dd27.jpg" class="card-img-top"
+                alt="Watch 2">
+              <div class="card-body">
+                <h5 class="card-title"style="font-size:20px"> Bracelets</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 100%;">
+              <img src="https://i.pinimg.com/564x/07/0d/93/070d93b689d5588f21bc50432ed116c1.jpg" class="card-img-top"
+                alt="Watch 2">
+              <div class="card-body">
+                <h5 class="card-title"style="font-size:20px"> bangle</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 100%;">
+              <img src="https://i.pinimg.com/474x/dc/fe/fc/dcfefc1f6a7f07864f7a44a945edc7c1.jpg" class="card-img-top"
+                alt="Watch 2">
+              <div class="card-body">
+                <h5 class="card-title"style="font-size:20px">Necklace</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 100%;">
+              <img src="https://i.pinimg.com/474x/ca/2e/0f/ca2e0f840582ffc621dc9bffa560f0f0.jpg" class="card-img-top"
+                alt="Watch 2">
+              <div class="card-body">
+                <h5 class="card-title"style="font-size:20px">Earring </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 100%;">
+              <img src="https://i.pinimg.com/564x/06/ce/2d/06ce2d4db981bba06a98afbdbe423c21.jpg" class="card-img-top"
+                alt="Watch 3">
+              <div class="card-body">
+                <h5 class="card-title"style="font-size:20px">kireedam</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.11/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html> 
+
+
+
+
+
+
+ -->
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+  
+
+
+/* .card {
+  border: none;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+} */
+
+/* .card:hover .card-img-top {
+  transform: translateY(-20px);
+} */
+
+/* .card-body {
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  transform: translateY(100%);
+} */
+
+/* .card:hover .card-body {
+  transform: translateY(0);
+} */
+
+/* .col-md-3 {
+  flex: 0 0 auto;
+  width: 33%;
+} */
+</style>
+</head>
+<body>
+<div class="container">
+  <h2 class="section__title">Discover By Category!</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card" id="card1" style="width: 100%;">
+        <img src="ring3.jpg" class="card-img-top" alt="Watch 1">
+        <div class="card-body">
+          <h5 class="card-title"style="font-size:20px">Rings</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card" style="width: 100%;">
+        <img src="https://i.pinimg.com/474x/53/63/15/53631548c493650640e8f9e4a0d7dd27.jpg" class="card-img-top"
+          alt="Watch 2">
+        <div class="card-body">
+          <h5 class="card-title"style="font-size:20px"> Bracelets</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card" style="width: 100%;">
+        <img src="https://i.pinimg.com/564x/07/0d/93/070d93b689d5588f21bc50432ed116c1.jpg" class="card-img-top"
+          alt="Watch 2">
+        <div class="card-body">
+          <h5 class="card-title"style="font-size:20px"> bangle</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card" style="width: 100%;">
+        <img src="https://i.pinimg.com/474x/dc/fe/fc/dcfefc1f6a7f07864f7a44a945edc7c1.jpg" class="card-img-top"
+          alt="Watch 2">
+        <div class="card-body">
+          <h5 class="card-title"style="font-size:20px">Necklace</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card" style="width: 100%;">
+        <img src="https://i.pinimg.com/474x/ca/2e/0f/ca2e0f840582ffc621dc9bffa560f0f0.jpg" class="card-img-top"
+          alt="Watch 2">
+        <div class="card-body">
+          <h5 class="card-title"style="font-size:20px">Earring </h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card" style="width: 100%;">
+        <img src="https://i.pinimg.com/564x/06/ce/2d/06ce2d4db981bba06a98afbdbe423c21.jpg" class="card-img-top"
+          alt="Watch 3">
+        <div class="card-body">
+          <h5 class="card-title"style="font-size:20px">kireedam</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html> -->
